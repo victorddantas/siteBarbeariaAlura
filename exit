@@ -1,0 +1,338 @@
+[33mcommit e0b56f76c39c2bb2e7a73843bd866845993ea459[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mlocal/master[m[33m)[m
+Author: victordomdan <vic.domingues61@gmail.com>
+Date:   Sat Apr 9 18:05:20 2022 -0300
+
+    alterção no html
+
+[1mdiff --git a/produtos.html b/produtos.html[m
+[1mindex e765b66..09705fb 100644[m
+[1m--- a/produtos.html[m
+[1m+++ b/produtos.html[m
+[36m@@ -19,7 +19,7 @@[m
+             <h1><img src="./assets/images/logo.png" alt="Logo da barbearia alura"></h1>[m
+             <nav>[m
+                 <li><a href="./index.html">Home</a></li>[m
+[31m-                <li><a href="./produtos.html">Produtos</a></li>[m
+[32m+[m[32m                <li><a href="./produtos.html">Produto</a></li>[m
+                 <li><a href="./contato.html">Contato</a></li>[m
+             </nav>[m
+         </div>[m
+
+[33mcommit 18d6e11e5dedf27ba0163a13f9a70320516c1411[m
+Author: victordomdan <vic.domingues@gmail.com>
+Date:   Sat Apr 9 16:42:30 2022 -0300
+
+    Adicionando .gitignore
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mnew file mode 100644[m
+[1mindex 0000000..b2fc316[m
+[1m--- /dev/null[m
+[1m+++ b/.gitignore[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mide.config[m
+\ No newline at end of file[m
+
+[33mcommit 3ba6e5bbac1b1daf0a060b3c2046c846fb88056b[m
+Author: victordomdan <vic.domingues@gmail.com>
+Date:   Sat Apr 9 16:11:09 2022 -0300
+
+    Alteração nos produtos
+
+[1mdiff --git a/produtos.html b/produtos.html[m
+[1mindex 7a0e364..e765b66 100644[m
+[1m--- a/produtos.html[m
+[1m+++ b/produtos.html[m
+[36m@@ -27,7 +27,7 @@[m
+     <main>[m
+         <ul class="produtos">[m
+             <li>[m
+[31m-                <h2>Cabelo</h2>[m
+[32m+[m[32m                <h2>Cabelos</h2>[m
+                 <img src="./assets/images/cabelo.jpg">[m
+                 <p class="descricao">Na tesoura e(ou) máquina, como o cliente preferir</p>[m
+                 <p class="preco">R$ 25,00</p>[m
+
+[33mcommit 9e2aa8620cdebfbf605165e43a2c61940365859d[m
+Author: victordomdan <seu@email.aqui~vic.domingues@gmail.com>
+Date:   Fri Apr 8 21:52:47 2022 -0300
+
+    Criando projeto babearia alura
+
+[1mdiff --git a/assets/images/Thumbs.db b/assets/images/Thumbs.db[m
+[1mnew file mode 100644[m
+[1mindex 0000000..eac63e8[m
+Binary files /dev/null and b/assets/images/Thumbs.db differ
+
+[33mcommit 2dca917138265b8c44b36326093ab43b78951f20[m
+Author: victordomdan <seu@email.aqui~vic.domingues@gmail.com>
+Date:   Fri Apr 8 20:35:05 2022 -0300
+
+    Criando projeto babearia alura
+
+[1mdiff --git a/Thumbs.db b/Thumbs.db[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e33ccbe[m
+Binary files /dev/null and b/Thumbs.db differ
+[1mdiff --git a/assets/images/banner.jpg b/assets/images/banner.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a5198bc[m
+Binary files /dev/null and b/assets/images/banner.jpg differ
+[1mdiff --git a/assets/images/barba.jpg b/assets/images/barba.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..3151d86[m
+Binary files /dev/null and b/assets/images/barba.jpg differ
+[1mdiff --git a/assets/images/beneficios.jpg b/assets/images/beneficios.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..5b15eec[m
+Binary files /dev/null and b/assets/images/beneficios.jpg differ
+[1mdiff --git a/assets/images/bg.jpg b/assets/images/bg.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..164742f[m
+Binary files /dev/null and b/assets/images/bg.jpg differ
+[1mdiff --git a/assets/images/cabelo+barba.jpg b/assets/images/cabelo+barba.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..1757568[m
+Binary files /dev/null and b/assets/images/cabelo+barba.jpg differ
+[1mdiff --git a/assets/images/cabelo.jpg b/assets/images/cabelo.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..53a8538[m
+Binary files /dev/null and b/assets/images/cabelo.jpg differ
+[1mdiff --git a/assets/images/logo-branco.png b/assets/images/logo-branco.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..74fe323[m
+Binary files /dev/null and b/assets/images/logo-branco.png differ
+[1mdiff --git a/assets/images/logo.png b/assets/images/logo.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..91705c1[m
+Binary files /dev/null and b/assets/images/logo.png differ
+[1mdiff --git a/assets/images/utensilios.jpg b/assets/images/utensilios.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c77a3f0[m
+Binary files /dev/null and b/assets/images/utensilios.jpg differ
+[1mdiff --git a/contato.html b/contato.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..525ddab[m
+[1m--- /dev/null[m
+[1m+++ b/contato.html[m
+[36m@@ -0,0 +1,98 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt-br">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <link rel="stylesheet" href="./styles/reset.css">[m
+[32m+[m[32m    <link rel="stylesheet" href="./styles/contato.css">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.googleapis.com">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">[m
+[32m+[m
+[32m+[m[32m    <title>Barbearia Alura | Contato</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m[32m            <h1><img src="./assets/images/logo.png" alt="Logo da Barbearia Alura"></h1>[m
+[32m+[m[32m            <nav>[m
+[32m+[m[32m                <li><a href="./index.html">Home</a></li>[m
+[32m+[m[32m                <li><a href="./produtos.html">Produtos</a></li>[m
+[32m+[m[32m                <li><a href="./contato.html">Contato</a></li>[m
+[32m+[m[32m            </nav>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <form>[m
+[32m+[m[32m            <label for="nomeSobrenome">Nome e sobrenome</label>[m
+[32m+[m[32m            <input type="text" id="nomeSobrenome" class="input-padrao" required>[m
+[32m+[m
+[32m+[m[32m            <label for="email">Email</label>[m
+[32m+[m[32m            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">[m
+[32m+[m
+[32m+[m[32m            <label for="telefone">Telefone</label>[m
+[32m+[m[32m            <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">[m
+[32m+[m
+[32m+[m[32m            <label for="mensagem">Mensagem</label>[m
+[32m+[m[32m            <textarea id="mensagem" cols="60" rows="10" class="input-padrao" required></textarea>[m
+[32m+[m[32m            <fieldset>[m
+[32m+[m[32m                <legend>Como prefere nosso contato</legend>[m
+[32m+[m[32m                <label for="radio-email"> <input type="radio" name="contato" value="email"[m
+[32m+[m[32m                        id="radio-email">Email</label>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <label for="radio-telefone"><input type="radio" name="contato" value="telefone"[m
+[32m+[m[32m                        id="radio-telefone">Telefone</label>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m                <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp"[m
+[32m+[m[32m                        checked>Whatsapp</label>[m
+[32m+[m[32m            </fieldset>[m
+[32m+[m
+[32m+[m[32m            <fieldset>[m
+[32m+[m[32m                <legend>Qual horário prefere ser atendido</legend>[m
+[32m+[m[32m                <select name="" id="">[m
+[32m+[m[32m                    <option value="">Manhã</option>[m
+[32m+[m[32m                    <option value="">Tarde</option>[m
+[32m+[m[32m                    <option value="">Noite</option>[m
+[32m+[m[32m                </select>[m
+[32m+[m[32m            </fieldset>[m
+[32m+[m
+[32m+[m[32m            <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por[m
+[32m+[m[32m                email?</label>[m
+[32m+[m
+[32m+[m[32m            <input class="enviar" type="submit" value="Enviar formulário">[m
+[32m+[m[32m        </form>[m
+[32m+[m
+[32m+[m[32m        <table>[m
+[32m+[m[32m            <thead>[m
+[32m+[m[32m                <tr>[m
+[32m+[m[32m                    <th>Dia</th>[m
+[32m+[m[32m                    <th>Horário</th>[m
+[32m+[m[32m                </tr>[m
+[32m+[m[32m            </thead>[m
+[32m+[m[32m            <tbody>[m
+[32m+[m[32m                <tr>[m
+[32m+[m[32m                    <td>Segunda</td>[m
+[32m+[m[32m                    <td>08h ~ 20h</td>[m
+[32m+[m[32m                </tr>[m
+[32m+[m[32m                <tr>[m
+[32m+[m[32m                    <td>Quarta</td>[m
+[32m+[m[32m                    <td>08h ~ 20h</td>[m
+[32m+[m[32m                </tr>[m
+[32m+[m[32m                <tr>[m
+[32m+[m[32m                    <td>Sexta</td>[m
+[32m+[m[32m                    <td>08h ~ 20h</td>[m
+[32m+[m[32m                </tr>[m
+[32m+[m[32m            </tbody>[m
+[32m+[m[32m        </table>[m
+[32m+[m[32m    </main>[m
+[32m+[m[32m    <footer>[m
+[32m+[m[32m        <img src="./assets/images/logo-branco.png" alt="Logo da barbearia alura">[m
+[32m+[m[32m        <p class="copyright">&copy; Copyright Barabearia Alura - 2019</p>[m
+[32m+[m[32m    </footer>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/index.html b/index.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0bd1db1[m
+[1m--- /dev/null[m
+[1m+++ b/index.html[m
+[36m@@ -0,0 +1,75 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt-br">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m	[32m<meta charset="UTF-8">[m
+[32m+[m	[32m<meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m	[32m<link rel="stylesheet" href="./styles/reset.css">[m
+[32m+[m	[32m<link rel="stylesheet" href="./styles/style-home.css">[m
+[32m+[m	[32m<link rel="preconnect" href="https://fonts.googleapis.com">[m
+[32m+[m	[32m<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[32m+[m	[32m<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">[m
+[32m+[m[41m	[m
+[32m+[m	[32m<title>Barbearia Alura | Home</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m	[32m<header>[m
+[32m+[m		[32m<div class="container">[m
+[32m+[m			[32m<h1><img src="./assets/images/logo.png" alt="Logo da barbearia alura"></h1>[m
+[32m+[m			[32m<nav>[m
+[32m+[m				[32m<li><a href="./index.html">Home</a></li>[m
+[32m+[m				[32m<li><a href="./produtos.html">Produtos</a></li>[m
+[32m+[m				[32m<li><a href="./contato.html">Contato</a></li>[m
+[32m+[m			[32m</nav>[m
+[32m+[m		[32m</div>[m
+[32m+[m	[32m</header>[m
+[32m+[m	[32m<img class="banner" src="./assets/images/banner.jpg">[m
+[32m+[m	[32m<main>[m
+[32m+[m		[32m<section class="principal">[m
+[32m+[m			[32m<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>[m
+[32m+[m			[32m<img class="utensilios" src="./assets/images/utensilios.jpg" alt="Utensílios de barbearia">[m
+[32m+[m			[32m<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor[m
+[32m+[m				[32mpara o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos[m
+[32m+[m				[32mclientes a cada dia.</p>[m
+[32m+[m			[32m<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos[m
+[32m+[m						[32mclientes"</strong>.</em></p>[m
+[32m+[m			[32m<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui[m
+[32m+[m				[32mpadrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>[m
+[32m+[m		[32m</section>[m
+[32m+[m		[32m<section class="mapa">[m
+[32m+[m			[32m<h3 class="titulo-principal">Nosso estabelecimento</h3>[m
+[32m+[m			[32m<p>Nosso estabelecimento está localizado no coração da cidade.</p>[m
+[32m+[m			[32m<div class="mapa-conteudo">[m
+[32m+[m				[32m<iframe[m
+[32m+[m					[32msrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.19744076339!2d-46.66735082089845!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1649290856312!5m2!1spt-BR!2sbr"[m
+[32m+[m					[32mwidth="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"[m
+[32m+[m					[32mreferrerpolicy="no-referrer-when-downgrade"></iframe>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</section>[m
+[32m+[m		[32m<section class="beneficios">[m
+[32m+[m			[32m<h3 class="titulo-principal">Benefícios</h3>[m
+[32m+[m			[32m<div class="conteudo-beneficios">[m
+[32m+[m				[32m<ul class="lista-beneficios">[m
+[32m+[m					[32m<li class="itens">Atendimento aos Clientes</li>[m
+[32m+[m					[32m<li class="itens">Espaço diferenciado</li>[m
+[32m+[m					[32m<li class="itens">Localização</li>[m
+[32m+[m					[32m<li class="itens">Profissionais Qualificados</li>[m
+[32m+[m					[32m<li class="itens">Pontualidade</li>[m
+[32m+[m					[32m<li class="itens">Limpeza</li>[m
+[32m+[m				[32m</ul><img src="./assets/images/beneficios.jpg" class="imagem-beneficios">[m
+[32m+[m			[32m</div>[m
+[32m+[m			[32m<div class="video">[m
+[32m+[m				[32m<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0"[m
+[32m+[m					[32mallow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"[m
+[32m+[m					[32mallowfullscreen></iframe>[m
+[32m+[m			[32m</div>[m
+[32m+[m		[32m</section>[m
+[32m+[m	[32m</main>[m
+[32m+[m	[32m<footer>[m
+[32m+[m		[32m<img src="./assets/images/logo-branco.png" alt="Logo da barbearia alura">[m
+[32m+[m		[32m<p class="copyright">&copy; Copyright Barabearia Alura - 2019</p>[m
+[32m+[m	[32m</footer>[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m[32m</html>[m
+\ No newline at end of file[m
+[1mdiff --git a/produtos.html b/produtos.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..7a0e364[m
+[1m--- /dev/null[m
+[1m+++ b/produtos.html[m
+[36m@@ -0,0 +1,55 @@[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt-br">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m    <meta charset="UTF-8">[m
+[32m+[m[32m    <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+[32m+[m[32m    <link rel="stylesheet" href="./styles/reset.css">[m
+[32m+[m[32m    <link rel="stylesheet" href="./styles/produtos.css">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.googleapis.com">[m
+[32m+[m[32m    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>[m
+[32m+[m[32m    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">[m
+[32m+[m
+[32m+[m[32m    <title>Barbearia Alura | Produtos</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m[32m    <header>[m
+[32m+[m[32m        <div class="container">[m
+[32m+[m[32m            <h1><img src="./assets/images/logo.png" alt="Logo da barbearia alura"></h1>[m
+[32m+[m[32m            <nav>[m
+[32m+[m[32m                <li><a href="./index.html">Home</a></li>[m
+[32m+[m[32m                <li><a href="./produtos.html">Produtos</a></li>[m
+[32m+[m[32m                <li><a href="./contato.html">Contato</a></li>[m
+[32m+[m[32m            </nav>[m
+[32m+[m[32m        </div>[m
+[32m+[m[32m    </header>[m
+[32m+[m[32m    <main>[m
+[32m+[m[32m        <ul class="produtos">[m
+[32m+[m[32m            <li>[m
+[32m+[m[32m                <h2>Cabelo</h2>[m
+[32m+[m[32m                <img src="./assets/images/cabelo.jpg">[m
+[32m+[m[32m                <p class="descricao">Na tesoura e(ou) máquina, como o cliente preferir</p>[m
+[32m+[m[32m 
